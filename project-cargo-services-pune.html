@@ -3,29 +3,20 @@
 <html lang="en">
   <head>
   
-  <script>
+<script>
 window.dataLayer = window.dataLayer || [];
 
 window.dataLayer.push({
-    event: "page_view",
-
-    page_name: document.title,
-
-    page_type: document.body.getAttribute("data-page-type") || "General",
-
-    page_category: document.body.getAttribute("data-page-category") || "General",
-
-    page_url: window.location.href,
-
-    page_path: window.location.pathname,
-
-    page_hostname: window.location.hostname,
-
-    page_language: document.documentElement.lang || "en",
-
-    page_referrer: document.referrer || "",
-
-    page_location: window.location.href
+  event: "page_view",
+  page_name: "Project Cargo Services",
+  page_type: "Project Cargo",
+  page_category: "Corporate",
+  page_title: document.title,  
+  page_location: window.location.href,
+  page_path: window.location.pathname,
+  page_language: document.documentElement.lang || "en",
+  page_environment:Test
+  
 });
 </script>
 	
